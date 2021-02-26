@@ -9,7 +9,7 @@ def main():
     for test_file in test_files:
         test_file_name = test_file + ".txt"
         # the path might be different on your computer
-        f = open("C:/Users/User/Desktop/lection4-exercise/FMI_plovdiv_lections/longest_adjacent_sequence/jordan_kondakov/tests/" + test_file_name)
+        f = open("C:/Users/User/Desktop/longest_adjacent_sequence/tests/" + test_file_name)
         file_content = f.readlines()
 
         size = file_content[0].replace("\n", "").split(" ")
